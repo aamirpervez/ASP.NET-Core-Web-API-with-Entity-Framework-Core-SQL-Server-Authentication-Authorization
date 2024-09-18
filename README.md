@@ -21,13 +21,14 @@
 3. Open Solution File and add both the projects and build solution.
 4. Set Properities of solution file and set both projects as start projects.
 5. Create Database in your Local SQL Server with Name upto you, make sure to update database connection in appsettings.json.
-6. I have shared sql script to run on your DB.
-7. In solution -> Go to -> Tools->Nuget Package Manager -> Package Manager Console :
+6. In solution -> Go to -> Tools->Nuget Package Manager -> Package Manager Console :
     1. Add-Migration "Creating DB"
     2. Update-Database
 It will create migration folder and create tables in database with intial data in DB.
 
-8. Once all done, enjoy running, debugging and making changes.
+7. Once all done, enjoy running, debugging and making changes.
+
+There are 3 simple curd operations scripts used in project, you can create your own ;-)
 
 ================================================================
    
